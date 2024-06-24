@@ -334,7 +334,6 @@ verifySupported
 checkDesiredVersion
 if ! checkHelmInstalledVersion; then
   downloadFile
-  verifyFile
   installFile
 fi
 testVersion
